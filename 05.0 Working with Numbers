@@ -1,0 +1,23 @@
+print(2)
+print(2.00005000)
+print(-2.500)
+
+print(3+4)
+
+print(3+4.5)
+print(3-4.5)
+print(3*4.5)
+print(3/4.5)
+
+print((3+4.5)*5)
+
+
+print(10%3)                // 10 MOD 3      // Divides 10 by 3     // Remainder 1
+print(11%3)                // 11 MOD 3      // Divides 11 by 3     // Remainder 2
+
+my_num=5                   // Number as a String
+print(my_num)
+print(my_num+3)
+print(my_num-3)
+print(my_num*3)
+print(my_num/3)
