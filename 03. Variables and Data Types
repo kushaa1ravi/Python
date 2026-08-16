@@ -1,11 +1,11 @@
-character_name= "Tom"
-character_age= "55"
-is_male= True
-print("There once was a man named "+character_name+", ")
-print("he was "+character_age+" years old. ")
+character_name= "Tom"                                     # Assigns the string "Tom" to the variable character_name
+character_age= "55"                                       # Assigns the string "55" to the variable character_age
+is_male= True                                             # Assigns the boolean value True to the variable is_male
+print("There once was a man named "+character_name+", ")  # Concatenates and prints the first part of the story
+print("he was "+character_age+" years old. ")             # Concatenates and prints the character's age
 
-character_name= "Jill"
-character_age= "45"
-is_male= False
-print("She really liked the name "+character_name+", ")
-print("but didn't like being "+character_age+".")
+character_name= "Jill"                                    # Reassigns character_name to "Jill"
+character_age= "45"                                       # Reassigns character_age to "45"
+is_male= False                                            # Assigns the boolean value False to the variable is_male
+print("She really liked the name "+character_name+", ")   # Concatenates and prints about Jill's name preference
+print("but didn't like being "+character_age+".")         # Concatenates and prints about Jill's age opinion
