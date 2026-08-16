@@ -1,23 +1,23 @@
-phrase = "Blah Blah"
+phrase = "Blah Blah"               # Initialize string variable with "Blah Blah"
 
-print(phrase)                      # Phrase                                                    # Blah Blah
+print(phrase)                      # Print the original phrase
 
-print(phrase+" is Blah")           # Pharse is Blah                                            # Blah Blah is Blah
+print(phrase+" is Blah")           # Print the phrase with additional text concatenated
 
-print(phrase.lower())              # Print it in lower case                                    # blah blah
+print(phrase.lower())              # Print the phrase converted to lowercase
 
-print(phrase.upper())              # Print it in upper case                                    # BLAH BLAH
+print(phrase.upper())              # Print the phrase converted to uppercase
 
-print(phrase.capitalize())         # Capitalises only the first letter of the first word       # Blah blah
+print(phrase.capitalize())         # Print the phrase with only first character capitalized
 
-print(phrase.title())              # Capatilises first letter of all words in the phrase       # Blah Blah
+print(phrase.title())              # Print the phrase with title case (first letter of each word capitalized)
 
-print(phrase.isupper())            # Checks if phrase is in upper case                         # False
+print(phrase.isupper())            # Check and print if the entire phrase is uppercase (returns boolean)
 
-print(phrase.islower())            # Checks if phrase is in lower case                         # False
+print(phrase.islower())            # Check and print if the entire phrase is lowercase (returns boolean)
 
-print(phrase.istitle())            # Checks if case is in title case                           # True
+print(phrase.istitle())            # Check and print if the phrase is in title case (returns boolean)
 
-print(phrase.upper().isupper())    # Converts pharse into upper case and checks if it's true   # True
+print(phrase.upper().isupper())    # Convert to uppercase and check if it's uppercase (returns True)
 
-print(len(phrase))                 # Checks the length of the phrase                           # 9
+print(len(phrase))                 # Print the length/number of characters in the phrase
