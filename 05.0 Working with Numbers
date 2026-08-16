@@ -1,23 +1,33 @@
-print(2)
-print(2.00005000)
-print(-2.500)
+print(2)                                    # Print the integer 2
 
-print(3+4)
+print(2.00005000)                           # Print the float value 2.00005 (trailing zeros are trimmed)
 
-print(3+4.5)
-print(3-4.5)
-print(3*4.5)
-print(3/4.5)
+print(-2.500)                               # Print the negative float value -2.5
 
-print((3+4.5)*5)
+print(3+4)                                  # Add two integers: 3 + 4 = 7
 
+print(3+4.5)                                # Add integer and float: 3 + 4.5 = 7.5
 
-print(10%3)                // 10 MOD 3      // Divides 10 by 3     // Remainder 1
-print(11%3)                // 11 MOD 3      // Divides 11 by 3     // Remainder 2
+print(3-4.5)                                # Subtract float from integer: 3 - 4.5 = -1.5
 
-my_num=5
-print(my_num)
-print(my_num+3)
-print(my_num-3)
-print(my_num*3)
-print(my_num/3)
+print(3*4.5)                                # Multiply integer by float: 3 * 4.5 = 13.5
+
+print(3/4.5)                                # Divide integer by float: 3 / 4.5 ≈ 0.667 (returns float)
+
+print((3+4.5)*5)                            # Order of operations: (3 + 4.5) * 5 = 7.5 * 5 = 37.5
+
+print(10%3)                                 # Modulo operator: 10 MOD 3 returns remainder = 1
+
+print(11%3)                                 # Modulo operator: 11 MOD 3 returns remainder = 2
+
+my_num=5                                    # Store the integer value 5 in variable my_num
+
+print(my_num)                               # Print the value of my_num = 5
+
+print(my_num+3)                             # Add 3 to my_num and print: 5 + 3 = 8
+
+print(my_num-3)                             # Subtract 3 from my_num and print: 5 - 3 = 2
+
+print(my_num*3)                             # Multiply my_num by 3 and print: 5 * 3 = 15
+
+print(my_num/3)                             # Divide my_num by 3 and print: 5 / 3 ≈ 1.667
