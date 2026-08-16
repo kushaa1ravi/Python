@@ -1,20 +1,23 @@
 phrase = "Blah Blah"
-print(phrase)                           // Prints Blah Blah
+print(phrase)                           # Prints Blah Blah
 
-print(phrase[0])                        // Prints B
-print(phrase[1])                        // Prints l
-print(phrase[2])                        // Prints a
-print(phrase[3])                        // Prints h
-print(phrase[4])                        // Prints 
-print(phrase[5])                        // Prints B
-print(phrase[6])                        // Prints l
-print(phrase[7])                        // Prints a
-print(phrase[8])                        // Prints h
+print(phrase[0])                        # Prints B
+print(phrase[1])                        # Prints l
+print(phrase[2])                        # Prints a
+print(phrase[3])                        # Prints h
+print(phrase[4])                        # Prints (space)
+print(phrase[5])                        # Prints B
+print(phrase[6])                        # Prints l
+print(phrase[7])                        # Prints a
+print(phrase[8])                        # Prints h
 
-print(phrase.index("a"))                // Tells us where a character is located = Starts from 2
+print(phrase.index("a"))                # Tells us where a character is located = Index 2
 
-print(phrase.count("ah"))               // Counts where "ah" starts from
+print(phrase.count("ah"))               # Counts occurrences of "ah"
 
-print(phrase.index("z"))                // Will show an error because z is absent
+try:
+    print(phrase.index("z"))            # Will show an error because z is absent
+except ValueError:
+    print("'z' not found in phrase")
 
-print(phrase.replace("Blah", "Hehe"))   // Replaces "Blah" with "Hehe"
+print(phrase.replace("Blah", "Hehe"))   # Replaces "Blah" with "Hehe"
