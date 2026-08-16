@@ -1,4 +1,5 @@
-print("Blah\nBlah")    # Prints Blah
-                                 Blah
-print("Blah\"Blah")    # Prints Blah"Blah
-print("Blah\Blah")     # Prints Blah/Blah
+print("Blah\nBlah")     # Uses \n (newline escape sequence) to print Blah on two separate lines
+                        # Output: Blah
+                        #         Blah
+print("Blah\"Blah")     # Uses \" (escaped quote) to include double quotes in the string - Prints Blah"Blah
+print("Blah\Blah")      # Uses \ (backslash) which gets interpreted - Prints Blah\Blah (or Blah/Blah depending on interpretation)
