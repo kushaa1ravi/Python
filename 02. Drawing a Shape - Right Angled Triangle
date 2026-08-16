@@ -1,4 +1,4 @@
-print("     /|")
-print("    / |")
-print("   /  |")
-print("  /___|")
+print("     /|")               # Prints the top part of the triangle with slash and pipe
+print("    / |")               # Prints the second line with slash, space and pipe
+print("   /  |")               # Prints the third line with slash, two spaces and pipe
+print("  /___|")               # Prints the bottom line completing the triangle shape
