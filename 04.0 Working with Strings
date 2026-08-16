@@ -1,4 +1,4 @@
-print("Blah\nBlah")    // Prints Blah
+print("Blah\nBlah")    # Prints Blah
                                  Blah
-print("Blah\"Blah")    // Prints Blah"Blah
-print("Blah\Blah")     // Prints Blah/Blah
+print("Blah\"Blah")    # Prints Blah"Blah
+print("Blah\Blah")     # Prints Blah/Blah
